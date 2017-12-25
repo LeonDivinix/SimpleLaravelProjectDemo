@@ -1,0 +1,34 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+    overflow:hidden;
+}
+
+#admin_index_border_container {
+    width: 100%;
+    height: 100%;
+}
+
+.admin_index_style_header{width: 100%; height: 60px; margin: 0; padding: 0; background: #eeeeee;position: relative;}
+.admin_index_style_header h1{color: #666;font:  22px/60px arial,sans-serif; margin: 0; position: absolute; top: 0; left: 20px;letter-spacing: 5px;}
+.admin_index_style_header h2{color: #666666;font: 14px/60px arial,sans-serif; padding-right: 150px; text-align: right;margin: 0;}
+.admin_index_style_header-close{width: 32px; height: 32px;position: absolute;top: 12px;right: 40px;background: url(/img/admin/default/close.png) no-repeat; border: none;}
+.admin_index_style_header-user{width: 32px; height: 32px;position: absolute;top: 12px;right: 100px;background: url(/img/admin/default/user.png) no-repeat; border: none;}
+
+.admin_line_table {
+    border-collapse: collapse;
+}
+.admin_line_table td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #678AB5;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.admin_add_icon{background-image:url("/js/dojo/gridx/resources/images/sprite.png");background-repeat:no-repeat;background-position:-182px -2px;height:16px;width:16px}
+.admin_del_icon{background-image:url("/js/dojo/gridx/resources/images/sprite.png");background-repeat:no-repeat;background-position:-202px -2px;height:16px;width:16px}
+.dijitDisabled .admin_add_icon{background-image:url("/js/dojo/gridx/resources/images/sprite.png");background-repeat:no-repeat;background-position:-182px -22px;height:16px;width:16px}
+.dijitDisabled .admin_del_icon{background-image:url("/js/dojo/gridx/resources/images/sprite.png");background-repeat:no-repeat;background-position:-202px -22px;height:16px;width:16px}

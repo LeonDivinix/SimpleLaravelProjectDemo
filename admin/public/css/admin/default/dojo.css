@@ -1,0 +1,10 @@
+.admin_uploadBtn{
+    border:1px solid #333333;
+    background: #d0d0d0 repeat-x scroll 0 top;
+    font-size:12px;
+    width:60px;
+    height:20px;
+    margin-left: 2px;
+    vertical-align:middle; /* emulates a <button> if node is not */
+    text-align:center;
+}
